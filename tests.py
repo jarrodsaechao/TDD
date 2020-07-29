@@ -39,7 +39,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(check_pwd(input), expected)
 
     def test8(self):
-        input = "AquafinaH20!asdasdasdasdasdascdasc"
+        input = " AquafinaH20! "
         expected = True
         self.assertEqual(check_pwd(input), expected)
 

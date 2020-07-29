@@ -1,12 +1,12 @@
 import unittest
-
+from check_pwd import check_pwd
 
 class TestCase(unittest.TestCase):
 
     def test1(self):
         input = "this is right"
-        expected = true
-        self.assertEqual(fizz_buzz(input), expected)
+        expected = True
+        self.assertEqual(check_pwd(input), expected)
 
 
 if __name__ == '__main__':

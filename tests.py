@@ -18,5 +18,15 @@ class TestCase(unittest.TestCase):
         expected = True
         self.assertEqual(check_pwd(input), expected)
 
+    def test4(self):
+        input = "AQUAFINA"
+        expected = True
+        self.assertEqual(check_pwd(input), expected)
+
+    # def test5(self):
+    #     input = "Aquafina"
+    #     expected = True
+    #     self.assertEqual(check_pwd(input), expected)
+
 if __name__ == '__main__':
     unittest.main()

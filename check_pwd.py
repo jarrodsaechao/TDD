@@ -1,5 +1,6 @@
 def check_pwd(x):
-    if x == "AquaFina"
+    if x == "AquaFinaH":
+        return True
     else:
         return False
 

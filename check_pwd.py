@@ -1,5 +1,5 @@
 def check_pwd(x):
-    if x == "this is right" :
+    if x == "Church":
         return True
     else:
         return False
